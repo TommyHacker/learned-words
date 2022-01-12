@@ -6,7 +6,7 @@ const Dictionary = ({ setGif, setDefinition }) => {
 	const [keyword, setKeyword] = useState(null);
 	const submitHandler = (e) => {
 		e.preventDefault();
-		const giphUrl = `http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${gifApiKey}&limit=5`;
+		const giphUrl = `https://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${gifApiKey}&limit=5`;
 		const dictionaryUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 		axios
 			.get(giphUrl)
