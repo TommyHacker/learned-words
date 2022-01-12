@@ -1,0 +1,23 @@
+{
+	"name": "learned-words",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "next start",
+		"dev": "next dev",
+		"build": "next build",
+		"lint": "next lint"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"cors": "^2.8.5",
+		"dotenv": "^11.0.0",
+		"next": "^12.0.8",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
